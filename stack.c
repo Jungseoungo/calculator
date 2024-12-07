@@ -3,6 +3,9 @@
 #include "stack.h"
 #include <string.h>
 
+
+printf("Stack calculator is active\n");
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
